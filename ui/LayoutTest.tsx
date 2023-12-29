@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Layout: React.FC = ({ children }) => {
+const LayoutTest: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="flex min-h-screen">
       {children}
@@ -10,4 +10,4 @@ const Layout: React.FC = ({ children }) => {
   );
 };
 
-export default Layout;
+export default LayoutTest;

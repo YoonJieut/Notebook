@@ -2,7 +2,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Layout from '../../ui/Layout';
+import LayoutTest from '../../ui/LayoutTest';
 import Menu from '../../ui/Menu';
 import Content from '../../ui/Content';
 import Search from '../../ui/Search';
@@ -19,7 +19,7 @@ const HomePage = () => {
   };
 
   return (
-    <Layout>
+    <LayoutTest>
       <div className="flex">
         <Menu onMenuSelect={handleMenuSelect} />
         <div className="flex-grow">
@@ -27,7 +27,7 @@ const HomePage = () => {
           <Search onSearchSubmit={handleSearchSubmit} />
         </div>
       </div>
-    </Layout>
+    </LayoutTest>
   );
 };
 

@@ -9,7 +9,7 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({ onMenuSelect }) => {
   return (
-    <div className="menu w-1/4 p-4 flex flex-col">
+    <div className="menu w-1/4 p-4 flex flex-col outline outline-1">
       {menuData.map((item, index) => (
         <button
           key={index}
