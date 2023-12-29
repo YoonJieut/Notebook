@@ -7,7 +7,7 @@ import Content from '@/components/Content';
 import Search from '@/components/Search';
 
 const HomePage = () => {
-  const [selectedMenu, setSelectedMenu] = useState('메뉴1');
+  const [selectedMenu, setSelectedMenu] = useState('Someone');
 
   const handleMenuSelect = (menuName: string) => {
     setSelectedMenu(menuName);
