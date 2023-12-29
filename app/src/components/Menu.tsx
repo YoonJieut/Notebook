@@ -9,11 +9,11 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({ onMenuSelect }) => {
   return (
-    <div className="menu w-1/6 p-4 flex flex-col outline outline-1 overflow-hidden ">
+    <div className="menu w-1/6 h-full p-4 flex flex-col outline outline-1 overflow-hidden ">
       {menuData.map((item, index) => (
         <button
           key={index}
-          className="block w-full p-2 mb-2 text-left  rounded"
+          className="block w-full p-2 mb-2 text-left  rounded font-size-12px"
           onClick={() => onMenuSelect(item.name)}
         >
           {item.name}
