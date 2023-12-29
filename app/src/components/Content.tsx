@@ -11,9 +11,11 @@ const Content: React.FC<ContentProps> = ({ selectedMenu }) => {
   const content = menuData.find(item => item.name === selectedMenu)?.content || "내용이 없습니다.";
 
   return (
-    <div className="content w-3/4 p-4">
-      <h1 className="text-xl font-bold">{selectedMenu}</h1>
-      <p className="mt-4">{content}</p>
+    <div className="content width-500px h-5/6 p-4 outline outline-1 flex flex-col">
+        <h1 className="text-xl font-bold">{selectedMenu} 소개</h1>
+        <p className="mt-4">{content}</p>
+        <h1 className="text-xl font-bold">{selectedMenu} 장점</h1>
+        <p className="mt-4">{content}</p>
     </div>
   );
 };

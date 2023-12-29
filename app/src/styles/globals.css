@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.width-500px{
+  width: 500px;
+}
+
+.background-btn {
+  background-color: #9191914D;
+}

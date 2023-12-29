@@ -18,15 +18,16 @@ const HomePage = () => {
   };
 
   return (
-    <Layout>
-      <div className="flex">
-        <Menu onMenuSelect={handleMenuSelect} />
-        <div className="flex-grow">
-          <Content selectedMenu={selectedMenu} />
-          <Search onSearchSubmit={handleSearchSubmit} />
-        </div>
-      </div>
-    </Layout>
+    <div id="root" className='w-screen h-screen flex justify-center items-center'>
+      <Layout>
+          <Menu onMenuSelect={handleMenuSelect} />
+          <div className='verticalLine h-full border-r-2'></div>
+          <div className="width-500px outline outline-1 flex flex-col justify-between">
+            <Content selectedMenu={selectedMenu} />
+            <Search onSearchSubmit={handleSearchSubmit} />
+          </div>
+      </Layout>
+    </div>
   );
 };
 
