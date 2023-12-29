@@ -1,8 +1,34 @@
+// pages/index.tsx
+'use client';
 
-export default function Home() {
+import React, { useState } from 'react';
+import Layout from '../../ui/Layout';
+import Menu from '../../ui/Menu';
+import Content from '../../ui/Content';
+import Search from '../../ui/Search';
+
+const HomePage = () => {
+  const [selectedMenu, setSelectedMenu] = useState('메뉴1');
+
+  const handleMenuSelect = (menuName: string) => {
+    setSelectedMenu(menuName);
+  };
+
+  const handleSearchSubmit = (searchTerm: string) => {
+    setSelectedMenu(searchTerm);
+  };
+
   return (
-    <main className="">
-      
-    </main>
-  )
-}
+    <Layout>
+      <div className="flex">
+        <Menu onMenuSelect={handleMenuSelect} />
+        <div className="flex-grow">
+          <Content selectedMenu={selectedMenu} />
+          <Search onSearchSubmit={handleSearchSubmit} />
+        </div>
+      </div>
+    </Layout>
+  );
+};
+
+export default HomePage;
