@@ -13,15 +13,15 @@ interface MenuProps {
 
 const Menu: React.FC<MenuProps> = ({ onMenuSelect, selectedMenu }) => {
   return (
-    <div className="menu w-1/6 h-full p-4 flex flex-col outline outline-1 overflow-hidden justify-between">
+    <div className="menu w-1/6 h-full p-4 flex flex-col  overflow-hidden justify-between">
       {menuData.map((item, index) => (
         <button
           key={index}
-          className={`block w-full p-2 mb-2 text-left rounded font-size-12px outline outline-1 ${selectedMenu === item.name ? 'pl-8 relative' : ''}`}
+          className={`transition-all block w-full p-2 mb-2 text-left rounded font-size-12px flex items-center  ${selectedMenu === item.name ? 'pl-8 relative' : ''}`}
           onClick={() => onMenuSelect(item.name)}
         >
           {selectedMenu === item.name && (
-            <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-blue-500 rounded-full"></div>
+            <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 bg-slate-600 rounded-full"></div>
           )}
           {item.name}
         </button>
