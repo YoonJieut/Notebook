@@ -1,7 +1,7 @@
 // components/Content.tsx
 
 import React from 'react';
-import menuData from '../../../../data/menuData.json'; // 가정된 JSON 파일 경로
+import menuData from '@/data/menuData.json'; // 가정된 JSON 파일 경로
 
 interface ContentProps {
   selectedMenu: string;
