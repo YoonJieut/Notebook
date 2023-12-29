@@ -24,7 +24,7 @@ const HomePage = () => {
         <div className='verticalLine h-full border-r-2'></div>
         <div className="width-500px h-full outline outline-1 flex flex-col justify-between">
           <Content selectedMenu={selectedMenu} />
-          <Search onSearchSubmit={handleSearchSubmit} />
+          <Search onSearchSubmit={handleSearchSubmit} selectedMenu={selectedMenu} />
         </div>
       </Layout>
     </div>

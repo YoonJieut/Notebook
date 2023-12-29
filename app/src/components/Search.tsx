@@ -5,9 +5,10 @@ import React, { useState } from 'react';
 
 interface SearchProps {
   onSearchSubmit: (searchTerm: string) => void;
+  selectedMenu : string; // 현재 선택된 메뉴 이름
 }
 
-const Search: React.FC<SearchProps> = ({ onSearchSubmit }) => {
+const Search: React.FC<SearchProps> = ({ onSearchSubmit, selectedMenu }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearch = () => {
@@ -20,7 +21,8 @@ const Search: React.FC<SearchProps> = ({ onSearchSubmit }) => {
         type="text"
         className="border p-2 mr-2 rounded w-full mb-3"
         value={searchTerm}
-        placeholder='WRITE YOUR NAME'
+        placeholder={selectedMenu ||'WRITE YOUR NAME'} 
+        // placeholder에 selectedMenu를 넣어줌  
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button
