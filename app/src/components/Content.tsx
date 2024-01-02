@@ -1,7 +1,11 @@
+
 // components/Content.tsx
 
 import React from 'react';
 import menuData from '@/data/menuData.json'; // 가정된 JSON 파일 경로
+// ? 데코레이터란 무엇일까? 
+//@"는 절대 경로를 나타냅니다. 일반적으로 "@"는 프로젝트의 루트 디렉토리를 가리킵니다. 이것은 프로젝트의 구조를 단순화하고 모듈을 더 쉽게 임포트할 수 있도록 도와줍니다.
+
 
 interface ContentProps {
   selectedMenu: string;
