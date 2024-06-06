@@ -1,70 +1,102 @@
 [
   {
-    "name": "김우진",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "자료구조",
+    "keyword": ["배열", "트리", "그래프"],
+    "content": "자료구조는 데이터를 효율적으로 저장하고 관리하기 위한 방법입니다. 배열, 연결 리스트, 스택, 큐, 트리, 그래프 등이 있습니다."
   },
   {
-    "name": "김현",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "알고리즘",
+    "keyword": ["정렬", "검색", "동적 프로그래밍"],
+    "content": "알고리즘은 문제를 해결하기 위한 절차나 방법입니다. 정렬, 검색, 재귀, 동적 프로그래밍, 그래프 탐색 등이 있습니다."
   },
   {
-    "name": "방승희",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "데이터베이스",
+    "keyword": ["SQL", "NoSQL", "ORM"],
+    "content": "데이터베이스는 데이터를 조직적으로 저장하고 관리하는 시스템입니다. 관계형 데이터베이스와 비관계형 데이터베이스로 나눌 수 있습니다."
   },
   {
-    "name": "변호녕",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "네트워크",
+    "keyword": ["TCP/IP", "HTTP", "DNS"],
+    "content": "네트워크는 여러 대의 컴퓨터가 데이터를 공유할 수 있도록 연결된 시스템입니다. TCP/IP, HTTP, DNS, 라우팅, 네트워크 프로토콜 등이 있습니다."
   },
   {
-    "name": "소사무엘",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "운영체제",
+    "keyword": ["프로세스 관리", "메모리 관리", "파일 시스템"],
+    "content": "운영체제는 하드웨어와 소프트웨어 자원을 관리하고, 컴퓨터 시스템의 기본적인 기능을 제공하는 소프트웨어입니다. 프로세스 관리, 메모리 관리, 파일 시스템 등이 있습니다."
   },
   {
-    "name": "송영준",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "컴퓨터 아키텍처",
+    "keyword": ["CPU", "메모리", "저장 장치"],
+    "content": "컴퓨터 아키텍처는 컴퓨터 시스템의 구조와 동작 원리를 연구하는 분야입니다. CPU, 메모리, 버스, 저장 장치, 입출력 장치 등이 포함됩니다."
   },
   {
-    "name": "신동현",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "소프트웨어 공학",
+    "keyword": ["요구사항 분석", "설계", "테스트"],
+    "content": "소프트웨어 공학은 소프트웨어 개발의 모든 단계에서 효율적이고 체계적인 접근 방법을 연구하는 학문입니다. 소프트웨어 개발 생명주기, 요구사항 분석, 설계, 테스트, 유지보수 등이 포함됩니다."
   },
   {
-    "name": "오승민",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "프로그래밍 언어",
+    "keyword": ["패러다임", "컴파일러", "인터프리터"],
+    "content": "프로그래밍 언어는 컴퓨터 프로그램을 작성하기 위해 사용하는 언어입니다. 다양한 프로그래밍 패러다임(절차적, 객체지향, 함수형 등)을 지원하는 언어들이 있습니다."
   },
   {
-    "name": "유승민",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "웹 개발",
+    "keyword": ["HTML", "CSS", "JavaScript"],
+    "content": "웹 개발은 웹 애플리케이션을 설계하고 구현하는 과정입니다. HTML, CSS, JavaScript, 프론트엔드 프레임워크, 백엔드 개발 등이 포함됩니다."
   },
   {
-    "name": "윤준현",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "버전 관리",
+    "keyword": ["Git", "브랜치", "커밋"],
+    "content": "버전 관리는 소프트웨어 개발에서 소스 코드를 관리하고 변경 사항을 추적하는 시스템입니다. Git, SVN 등이 있으며, GitHub와 같은 호스팅 서비스를 사용합니다."
   },
   {
-    "name": "이민구",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "테스트",
+    "keyword": ["단위 테스트", "통합 테스트", "TDD"],
+    "content": "테스트는 소프트웨어가 요구사항을 충족하고 결함이 없는지 확인하는 과정입니다. 단위 테스트, 통합 테스트, 시스템 테스트, 사용자 수용 테스트 등이 있습니다."
   },
   {
-    "name": "이유안",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "디버깅",
+    "keyword": ["디버거", "로그", "오류 수정"],
+    "content": "디버깅은 코드의 오류를 찾아 수정하는 과정입니다. 디버거 도구를 사용하거나 로그를 분석하여 문제를 해결합니다."
   },
   {
-    "name": "이채이",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "최적화",
+    "keyword": ["성능 향상", "메모리 관리", "효율성"],
+    "content": "최적화는 프로그램의 성능을 개선하기 위한 과정입니다. 코드의 실행 속도를 높이거나 메모리 사용량을 줄이는 기법이 포함됩니다."
   },
   {
-    "name": "정영식",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "보안",
+    "keyword": ["암호화", "인증", "취약점 분석"],
+    "content": "보안은 시스템과 데이터를 보호하기 위한 방법입니다. 암호화, 인증, 접근 제어, 네트워크 보안, 취약점 분석 등이 포함됩니다."
   },
   {
-    "name": "최성민",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "객체 지향 프로그래밍",
+    "keyword": ["클래스", "상속", "캡슐화"],
+    "content": "객체 지향 프로그래밍(OOP)은 객체를 기본 단위로 프로그램을 설계하고 구현하는 패러다임입니다. 클래스, 상속, 다형성, 캡슐화 등이 포함됩니다."
   },
   {
-    "name": "최은철",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "함수형 프로그래밍",
+    "keyword": ["고차 함수", "불변성", "순수 함수"],
+    "content": "함수형 프로그래밍은 함수를 기본 단위로 프로그램을 설계하고 구현하는 패러다임입니다. 고차 함수, 불변성, 순수 함수 등이 포함됩니다."
   },
   {
-    "name": "홍문기",
-    "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, provident ipsum fuga iste hic delectus minus aspernatur nihil corrupti, totam aperiam tenetur amet impedit reprehenderit! Possimus quos neque placeat cupiditate."
+    "name": "API",
+    "keyword": ["REST", "GraphQL", "엔드포인트"],
+    "content": "API(Application Programming Interface)는 소프트웨어 간의 상호작용을 위한 인터페이스입니다. RESTful API, GraphQL 등이 포함됩니다."
+  },
+  {
+    "name": "클라우드 컴퓨팅",
+    "keyword": ["AWS", "Azure", "SaaS"],
+    "content": "클라우드 컴퓨팅은 인터넷을 통해 IT 자원(서버, 스토리지, 데이터베이스 등)을 제공하는 서비스입니다. AWS, Azure, Google Cloud 등이 있습니다."
+  },
+  {
+    "name": "DevOps",
+    "keyword": ["CI/CD", "자동화", "모니터링"],
+    "content": "DevOps는 소프트웨어 개발과 운영을 통합하여 효율성을 높이는 방법론입니다. CI/CD, 자동화, 모니터링, 협업 도구 등이 포함됩니다."
+  },
+  {
+    "name": "소프트웨어 아키텍처",
+    "keyword": ["모놀리식", "마이크로서비스", "이벤트 드리븐"],
+    "content": "소프트웨어 아키텍처는 소프트웨어 시스템의 구조와 설계를 정의하는 과정입니다. 모놀리식 아키텍처, 마이크로서비스 아키텍처, 이벤트 드리븐 아키텍처 등이 포함됩니다."
   }
 ]
